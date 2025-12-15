@@ -232,14 +232,14 @@ Comprehensive JSON file including:
 
 ### Issue: "Import 'streamlit' could not be resolved"
 **Solution:** Ensure Streamlit is installed:
-pip install streamlit
+- ```pip install streamlit```
 Restart your IDE to reload modules.
 
 ### Issue: "Import 'utils' could not be resolved"
 **Solution:** Run the application from the project root:
-cd /path/to/StealthScan
-streamlit run scanner/app.py
-Or add this to the top of `scanner/app.py`:
+- cd /path/to/StealthScan
+- streamlit run scanner/app.py
+- Or add this to the top of `scanner/app.py`:
 ```
 import sys
 import os

@@ -62,13 +62,8 @@ StealthScan/
 │   ├── validators.py               ← File validation
 │   └── visualization.py            ← UI components
 │
-├── dashboard.html                  ← Standalone HTML alternative
 ├── requirements.txt                ← Updated with Streamlit
 ├── README.md                        ← Project documentation
-├── GIT_COMMANDS.md                 ← Git workflow guide
-├── GITHUB_SETUP.md                 ← GitHub setup
-├── STREAMLIT_SETUP.md              ← Detailed Streamlit guide
-├── STREAMLIT_QUICKSTART.md         ← Quick start reference
 └── .gitignore
 ```
 

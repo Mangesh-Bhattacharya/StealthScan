@@ -45,21 +45,31 @@ Designed for **authorized penetration testers, red teamers, and cybersecurity an
 ```
 StealthScan/
 │
-├── scanner/                          # Core scanning and intelligence logic
-│   ├── __init__.py                   # Package initialization
-│   ├── app.py                        # Streamlit UI orchestrator
-│   ├── stealth_scan.py               # PCAP parser (Scapy-based)
-│   ├── evasion.py                    # IPS/IDS evasion simulation engine
-│   ├── threat_intel.py               # VirusTotal & AbuseIPDB integration
-│   └── report.py                     # Report generation and export
+├── streamlit_app.py                ← NEW: Main Streamlit app (RUN THIS!)
+├── .streamlit/
+│   └── config.toml                 ← NEW: Streamlit configuration
 │
-├── utils/                            # Utility and helper modules
-│   ├── __init__.py                   # Package initialization
-│   ├── validators.py                 # PCAP file validation
-│   └── visualization.py              # Streamlit UI components
+├── scanner/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── stealth_scan.py             ← PCAP parser
+│   ├── evasion.py                  ← Evasion engine
+│   ├── threat_intel.py             ← API integration
+│   └── report.py                   ← Report generator
 │
-├── requirements.txt                  # Python dependencies
-└── README.md                         # This file
+├── utils/
+│   ├── __init__.py
+│   ├── validators.py               ← File validation
+│   └── visualization.py            ← UI components
+│
+├── dashboard.html                  ← Standalone HTML alternative
+├── requirements.txt                ← Updated with Streamlit
+├── README.md                        ← Project documentation
+├── GIT_COMMANDS.md                 ← Git workflow guide
+├── GITHUB_SETUP.md                 ← GitHub setup
+├── STREAMLIT_SETUP.md              ← Detailed Streamlit guide
+├── STREAMLIT_QUICKSTART.md         ← Quick start reference
+└── .gitignore
 ```
 
 ---

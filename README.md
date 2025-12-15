@@ -319,8 +319,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## 👨‍💻 Author
 
 **Mangesh Bhattacharya**  
-Cybersecurity & Software Developer  
-Specialization: Red Team Operations, Bug Bounty Hunting, Network Security  
+Cybersecurity Engineer & Software Developer  
+Specialization: Red Team Operations, Bug Bounty Hunting, Network Security, Machine Learning  
 
 **Contact:**
 - GitHub: [@mangesh-bhattacharya](https://github.com/mangesh-bhattacharya)
